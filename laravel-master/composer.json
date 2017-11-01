@@ -9,6 +9,7 @@
         "fideloper/proxy": "~3.3",
         "kyslik/column-sortable": "^5.5",
         "laravel/framework": "5.5.*",
+        "illuminate/html": "5.*", 
         "laravel/tinker": "~1.0",
         "laravel/cashier": "~6.0" 
     },
