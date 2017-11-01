@@ -10,7 +10,12 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+//echo "manik";exit;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::resource('category', 'CategoriController');
+
+Route::resource('product','ProductController');
